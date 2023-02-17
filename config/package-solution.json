@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "get-all-list-info-client-side-solution",
+    "id": "6c885916-629b-4fa1-9751-a6592472d96f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "webApiPermissionRequests": [
+      {"resource": "Microsoft Graph", "scope": "User.ReadBasic.All"},
+      {"resource": "Microsoft Graph", "scope": "sites.Read.All"},
+      {"resource": "Microsoft Graph", "scope": "sites.ReadWrite.All"}
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "GetAllListInfo description"
+      },
+      "longDescription": {
+        "default": "GetAllListInfo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "get-all-list-info Feature",
+        "description": "The feature that activates elements of the get-all-list-info solution.",
+        "id": "966bd1eb-efb4-47db-bd09-6353e947c9d2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/get-all-list-info.sppkg"
+  }
+}
